@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/k4236150"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="the body quiz"
+            android:textAllCaps="true"
+            android:textColor="#F3E5F5"
+            android:textSize="46sp"/>
+
+        <TextView
+            style="@style/questionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/auricle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Auricles"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/ventricle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Ventricles"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_2"/>
+
+        <EditText
+            android:id="@+id/answer2_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Enter the answer"
+            android:inputType="textCapWords"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"/>
+
+        <TextView
+            style="@style/questionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3"/>
+
+        <EditText
+            android:id="@+id/answer3_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Enter the answer"
+            android:inputType="textCapWords"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"/>
+
+        <TextView
+            style="@style/questionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_4"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/spine_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Spine"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/ribs_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Ribs"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/hearing_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:text="Hearing"
+                android:textColor="#FFFFFF"/>
+
+            <CheckBox
+                android:id="@+id/balancing_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:text="Balancing"
+                android:textColor="#FFFFFF"/>
+
+            <CheckBox
+                android:id="@+id/circulation_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:text="Circulation"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_6"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/vertebrae_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Vertebrae"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/femur_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Femur"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_7"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/sh_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Single Helix"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/dh_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFFFFF"
+                android:text="Double Helix"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+
+            android:text="submit answers"/>
+
+    </LinearLayout>
+</ScrollView>

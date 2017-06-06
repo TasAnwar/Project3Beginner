@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QUIZ APP</string>
+    <string name="question_2">2.What is the human body’s biggest organ?</string>
+    <string name="question_1">1.The two chambers at the bottom of your heart are called:</string>
+    <string name="question_3">3.Another name for your voice box is:</string>
+    <string name="question_4">4.The bones around your chest that protect organs such as the heart are called what?</string>
+    <string name="question_5">5.Your ears are important for:</string>
+    <string name="question_6">6.The bones that make up your spine are called what?</string>
+    <string name="question_7">7.The shape of DNA is known as?</string>
+    <string name="question_8">8.Another name for your voice box is the?</string>
+    <string name="question_9">9.An adult human body has over 500 bones.</string>
+    <string name="question_10">10.What is the name of the biggest part of the human brain?</string>
+    <string name="title_activity_solution">SolutionActivity</string>
+
+</resources>
